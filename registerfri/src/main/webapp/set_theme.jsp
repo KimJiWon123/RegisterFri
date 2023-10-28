@@ -14,20 +14,20 @@
     <h2>Select your theme::</h2>
     <form action="set-theme" method="post">
         <p>
-            <input type="radio" name="bgColor" value="silver">
-            <button style="background-color: silver">Silver</button>
+            <input type="radio" name="bgColor" value="pink">
+            <button style="background-color: pink">Pink</button>
         </p>
         <p>
-            <input type="radio" name="bgColor" value="gray">
-            <button style="background-color: gray">Gray</button>
+            <input type="radio" name="bgColor" value="beige">
+            <button style="background-color: beige">Beige</button>
         </p>
         <p>
-            <input type="radio" name="bgColor" value="darkgoldenrod">
-            <button style="background-color: darkgoldenrod">Gold</button>
+            <input type="radio" name="bgColor" value="lightgrey">
+            <button style="background-color: lightgrey">Grey</button>
         </p>
         <p>
-            <input type="radio" name="bgColor" value="yellowgreen">
-            <button style="background-color: yellowgreen">Yellow Green</button>
+            <input type="radio" name="bgColor" value="lightskyblue">
+            <button style="background-color: lightskyblue">Blue</button>
         </p>
         <hr>
         <input type="submit" value="OK">
