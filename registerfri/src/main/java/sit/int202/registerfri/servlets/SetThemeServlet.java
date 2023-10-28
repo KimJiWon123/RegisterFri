@@ -16,7 +16,7 @@ public class SetThemeServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String bgColor = request.getParameter("bgColor");
-        Cookie ck = new Cookie("bg_color", bgColor);
+        Cookie ck = new Cookie("bg_color_cookie", bgColor);
         ck.setMaxAge(8*24*60*60);
         response.addCookie(ck);
         response.sendRedirect("index.jsp");
