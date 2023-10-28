@@ -48,7 +48,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: ${cookie.bg_color_cookie.value}">
     <div class="container">
         <h2>Menu</h2><hr>
         <a href="course-list">ลงทะเบียน</a><br>
